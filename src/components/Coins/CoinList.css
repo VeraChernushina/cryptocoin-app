@@ -1,0 +1,45 @@
+.coin-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.coins-header {
+  display: flex;
+  justify-content: center;
+  padding: 11px 1.3rem;
+  margin: 5px 2.5rem;
+  border-bottom: 1px solid rgb(71, 71, 211);
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 54px;
+  width: 900px;
+  color: rgb(71, 71, 211);
+  font-size: 1.2em;
+}
+
+.header-name {
+  width: 200px;
+  padding-right: 15px;
+}
+
+.header-price {
+  width: 125px;
+}
+
+.header-percent {
+  width: 125px;
+}
+
+.header-volume {
+  width: 215px;
+}
+
+.header-marketcap {
+  width: 215px;
+}

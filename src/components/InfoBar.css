@@ -1,0 +1,49 @@
+.infobar {
+  margin: 35px 64px;
+  padding: 10px;
+  display: flex;
+  justify-content: column;
+}
+
+.form {
+  width: 50%;
+}
+
+.form input,
+button {
+  display: block;
+  width: 420px;
+}
+
+.form button {
+  margin-top: 15px;
+  border: 1px solid rgb(71, 71, 211);
+  color: rgb(71, 71, 211);
+}
+
+.form input {
+  padding: 4px 0 5px;
+  border: 0;
+  border-bottom: 1px solid rgb(71, 71, 211);
+  box-sizing: content-box;
+  height: 1.4375em;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.info {
+  width: 50%;
+  color: rgb(71, 71, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
