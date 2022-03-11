@@ -1,5 +1,7 @@
 # Coin Wallet
 
+## [Demo](https://cryptocoin-app.vercel.app/)
+
 ## Функциональность
 * Криптовалютный трекер
 * Поиск BNB баланса по адресу
